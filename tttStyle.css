@@ -1,0 +1,118 @@
+#scores{
+  width: 324px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0;
+  height: 3vh;
+}
+
+.lblPlayer{
+  float: left;
+  text-align: center;
+  width: 161px;
+  margin: 0;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  font-size: 120%;  
+}
+
+.score{
+  float: left;
+  text-align: center;
+  width: 162px;
+  margin: 0;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  font-size: 120%;  
+}
+
+#holder{
+ position: relative;
+  width: 360px;
+  height: 360px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  padding-bottom: 1px;
+  border: 18px solid transparent;
+     -webkit-border-image: url(http://res.cloudinary.com/tmurphy/image/upload/v1505113891/wood_tp7ytb.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(http://res.cloudinary.com/tmurphy/image/upload/v1505113891/wood_tp7ytb.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(http://res.cloudinary.com/tmurphy/image/upload/v1505113891/wood_tp7ytb.jpg) 30 round;
+ 
+  box-shadow: 2px 2px 2px grey;
+}
+#cover{
+  position: absolute;
+  background: black;
+  width: 325px;
+  height: 325px;
+  text-align: center;
+}
+
+p{
+  margin-top: 20%;
+  text-align: center;
+  font-family: Special Elite;
+  font-size: 200%;
+  color: white;
+}
+
+.yesNo{
+  width: 60px;
+  margin: 4px;
+  background: #606060;
+  color: black;
+  font-family: Special Elite;
+  font-weight: bold;
+  font-size: 130%;
+  padding-top: 10px;
+}
+
+.xo{
+  width: 60px;
+  margin: 4px;
+  background: #606060;
+  color: black;
+  font-family: Special Elite;
+  font-weight: bold;
+  font-size: 150%;
+  padding-top: 10px;
+  display: none;
+}
+
+#bottom{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+#end{
+  width: 120px;
+  margin-top: 4px;
+  background: #606060;
+  color: black;
+  font-family: Special Elite;
+  font-weight: bold;
+  font-size: 90%;
+  padding-top: 5px;
+  
+}
+
+
+
+.square{
+  float: left;
+  width: 108px;
+  height: 108px;
+  border: 2px solid white;
+  margin: 0;
+  background: black;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: 70px;
+}
